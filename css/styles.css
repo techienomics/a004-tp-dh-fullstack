@@ -1,0 +1,44 @@
+/* CSS Document */
+
+/*@import url("");*/
+
+h1{
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+h1::after{
+	content: '';
+	border-style:; 
+	border-width:;
+	border-color: pink transparent transparent transparent;
+
+}
+
+nav{
+	background-color: pink;
+}
+
+ul{
+	padding: 0px;
+	margin:0px;	
+}
+
+li{
+	width: 25%;
+	text-align: center;
+	padding: 10px 0px 10px 00px;
+	display: inline-block;
+	list-style: none;
+}
+
+li::before{  /*por default es inline*/
+	content: url('');
+	display:inline-block;
+}
+
+a{
+	color:white;
+	display:block;
+}
